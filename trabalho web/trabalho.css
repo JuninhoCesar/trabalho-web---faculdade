@@ -1,0 +1,22 @@
+body{
+    background-color:#0000;
+    }
+
+.alinhar{
+    text-align:center;
+    font-size:30px;
+    }
+    
+.texto{
+    color:#8a2be2;
+    }
+    
+.btn{
+    border:solid;
+    border-radius:10px;
+    border-color:#00bfff;
+    background-color:#f0f8ff;
+    cursor:pointer;
+    }
+    
+    

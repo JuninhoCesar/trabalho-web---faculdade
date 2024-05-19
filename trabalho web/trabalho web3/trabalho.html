@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="trabalho.css">
+    <script src="gabarito.js"></script>
+
+    <style>
+        body{
+    background-color:#ADD8E6;
+    }
+
+    .botaodev {
+            display:inline-block;
+            padding:10px 20px;
+            background-color:#4B0082;
+            color:white;
+            text-decoration:none;
+            border:none;
+            border-radius:20px;
+            margin-left: 89%;
+            margin-bottom: -20%;
+            cursor:pointer;
+        }
+
+    h1{
+        font-size:50px; 
+        text-align:center;
+        color:goldenrod;
+        background-color: #4682B4;
+    }
+   #quizForm{
+        font-size:25px;
+        text-align:left;
+        margin-left: 10%;
+    }
+
+.alinhar{
+    text-align:center;
+    font-size:30px;
+    margin-right: 10%;
+    }
+    
+.texto{
+    color:#8a2be2;
+    }
+    
+.btn{
+    width: 150px;
+    height: 50px;
+    border:solid;
+    border-radius:10px;
+    border-color:#00bfff;
+    background-color:#f0f8ff;
+    cursor:pointer;
+    font-size: 23px;
+    }
+
+    footer{
+        color:white;
+        background-color: #4682B4;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #retorno{
+        color:#006400;
+    }
+    
+    </style>
+</head>
+<body>
+
+    <a href="desenvolvedores.html" class="botaodev">Desenvolvedores</a>
+
+    <h1>Quiz do Milhão</h1>
+    <form id="quizForm">
+        <div class="perg1">
+            <h3>1- Qual o significado de CSS?</h3>
+            <input type="radio" name="a" value="a1">Cascading Style Sheets<br>
+            <input type="radio" name="a" value="b1">Cascate Stile Shorts<br>
+            <input type="radio" name="a" value="c1">Camading Style Sheets <br>
+        </div>
+
+        <div class="perg2">
+            <h3>2- Qual das linguagens abaixo é uma linguagem de programação? </h3>
+            <input type="radio" name="b" value="a2">HTML <br>
+            <input type="radio" name="b" value="b2">CSS<br>
+            <input type="radio" name="b" value="c2">Java Script<br>
+        </div>
+
+        <div class="perg3">
+            <h3>3- Qual a Definição de HTML?</h3>
+            <input type="radio" name="c" value="a3">Ipertext Markup Language  <br>
+            <input type="radio" name="c" value="b3">Hiper Texto Marc Language <br>
+            <input type="radio" name="c" value="c3">HyperText Markup Language <br>
+        </div>
+        <br>
+
+        <div class="alinhar">
+            <p class="texto">Obter Respostas!</p>
+
+            <button class="btn" type="button" onclick="validarRespostas()">Enviar</button>
+
+            <button class="btn" type="button" onclick="gabarito()">Gabarito</button><br>
+
+            <!--irá escrever o gabarito aqui-->
+            <p id="retorno"></p><br>
+        </div>
+    </form>
+
+    <footer>Todos os direitos são reservados!</footer>
+
+   
+
+</body>
+</html>

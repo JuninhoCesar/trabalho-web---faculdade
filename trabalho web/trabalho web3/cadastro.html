@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cadastro Quiz</title>
+<link rel="stylesheet" type="text/css" href="login.css">
+<meta charset="UTF-8">
+
+</head>
+<body>
+<div class="meio">
+
+<h3>Cadastre-se</h3>
+
+<div class="form">
+    <form action="actionCadastro.php" method="POST" > <!-- Aqui estou declarando o metodo que sera utilizando para transferir as respostas do formulario -->
+
+<span>Nome </span> <input type="text" name="login"id="login" placeholder="Seu nome..."/><br>
+<span >E-mail</span><input type="email" name="email" id="email" placeholder="Seu email..."/><br>
+<span>Senha</span><input type="password" name="senha" id="senha" placeholder="Sua senha..."/><br>
+<span>Genero</span><input type="text" name="genero" id-="genero" placeholder="Seu Genero..."/><br>
+
+
+
+
+
+
+</div> <!--fim da div botao-->
+
+<input class="bt" type="submit" value="enviar" id="cadastrar" name="cadastrar"/><br>
+</form>
+<span>Já possui uma conta?</span><br>
+<a href="login.html">Login</a> <!-- Este é o link que linka as paginas de login e cadastro, gostaria que vc coloca se ela  longe do botão enviar para evitar o erro humano da 
+ pessoa clicar no botão errado, seria interresante apagar tudo apos a virgula depois de ter arrumado a posição -->
+
+</div> <!--fim da div form-->
+
+</div> <!--fim da div meio-->
+
+</body>
+</html>
